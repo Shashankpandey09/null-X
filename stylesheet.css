@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#main{
+ width: 100%;
+ background-color: black;
+ color: #fff;
+
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    transition: 1000ms;
+}
+#nav{
+    padding:18px 18px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav a{
+ text-decoration: none;
+ color: #fff;
+ cursor: pointer !important;
+    
+}
+#heading h1{
+    margin-left: 30px;
+    font-size: 9vw;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: .8;
+}
+.blocktext{
+  width: fit-content;
+
+}
+#heading{
+    line-height: .6;
+    padding-top: 6vh;
+}
+#yoyo{
+    padding-left: 9.8vw;
+
+    
+}
+h6{
+    text-align: right;
+    text-transform: uppercase;
+    padding-bottom: .5rem;
+}
+#chotiheading h5{
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing:1px;
+    text-align: right;
+    padding-right: 24px;
+}
+#chotiheading{
+    margin-top: 5vh;
+    font-size: 1.4vw;
+    
+}
+#nav2{
+    position: absolute;
+    width: 100%;
+    bottom: 2%;
+    text-transform: uppercase;
+    font-size: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+
+
+}
+h4 i{
+font-size:14px;
+position: absolute;
+}
+.circ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(100, 106, 106);
+    font-size:15px;
+    text-align: center;
+    color: black;
+}
+#second{
+    width: 100%;
+    padding-top:12vh ;
+    height: 100vh;
+    padding-right: 3.6rem;
+    padding-left: 1.4rem;
+}
+.elem{
+    cursor:pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity:.7 ;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    padding: 3rem 2rem;
+    padding-right: 0;
+}
+.elem h1{
+ font-size: 6vw;
+ transition: 1000ms;
+}
+.heo{
+    border-bottom: 1px solid #888
+}
+.elem  :hover{
+   scale: 1.2;
+   color: rgb(155, 4, 4);
+   opacity:0.7 ;
+}
+.im{
+    transition: 1000ms;
+}
+.im:hover{
+    color: red;
+    scale: 1.1;
+}
+.elem>img{
+    transition: 1000ms;
+    display: none;
+    position: absolute;
+    z-index:100;
+    height: 140%;
+
+}
+#third{
+    position: relative;
+    padding-top: 5rem;
+    width: 100%;
+    height: 100vh;
+   
+}
+#hero1{
+    display: flex;
+    justify-content: center;
+    transition: 1000ms;
+    gap: 4rem;
+    padding-left: 20rem ;
+
+}
+#hero2{
+
+    transition: 1000ms;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+#hero2 img{
+    width:12rem;
+}
+#hero3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  transition: 1000ms;
+  width: 25vw;
+
+    gap:1rem;
+
+    
+
+}
+.butt{
+   padding: 9px 24px;
+   background-color: transparent;
+   border: 1px solid #888;
+   color: #fff;
+    align-self:flex-start;
+    border-radius: 24px;
+    text-transform: capitalize;
+}
+#hero3 p{
+    text-transform: capitalize;
+    font-weight: 100;
+    line-height: 1.8;
+    opacity: 0.8;
+    font-size: 0.8rem;
+}
+@media screen and (max-width: 1024px) {
+    #hero1{
+        align-items: center;
+      gap: 25px;
+      padding-left: 0;
+      padding: 0;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+    #hero3 p{
+    
+    }
+    #hero3{
+        width: 75%;
+        height: fit-content;
+
+        
+    }
+    .butt{
+        align-self: center;
+    }
+    #hero2{
+        height: fit-content;
+      
+        justify-content: center;
+    }
+  }
+  #head h6{
+    text-align: left;
+    opacity: 0.7;
+    
+  }
+  #head{
+    padding-top:4rem ;
+  padding-left: 2rem;
+  }
+  #head h5{
+    text-transform: uppercase;
+    font-size: .6rem;
+  }
+  #nav3{
+    position: absolute;
+    bottom: 1%;
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  #one{
+    gap: .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+#two{
+    
+    transition: 1000ms;
+    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#one p{
+    opacity: 0.7;
+    font-size: 0.6rem;
+}
+#two h6{
+    font-size: 0.6rem;
+}
+@media screen and (max-width: 624px){
+    #two{
+        gap: .5rem;
+       
+    }
+    #two h6{
+        font-size: 0.5rem;
+    }
+    #hero3 {
+    width: 90%;
+    }
+    #third{
+        padding-top: 0;
+    }
+}
+#two h6{
+transition: 1000ms;    
+}
+h6:hover{
+    transition: 1000ms;
+    text-decoration-line: underline;
+
+}
+.char{
+    transform: translateY(15px);
+    transition: transform 0.3s;
+}
+#chotiheading{
+    transform: translateY(100px);
+    transition: transform 1s;
+}
+.blocktext>h6{
+    text-align: right;
+   
+    width: 100%;
+}
+#loading-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    
+}
+#load{
+    color: #fff;
+    font-size: 7rem;
+}
+#loading-page #para{
+    color: #fff;
+    letter-spacing:12px ;
+    margin-left:0.8rem ;
+    font-size: 1rem;
+}
